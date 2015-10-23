@@ -1,0 +1,22 @@
+{
+  "name": "notifications",
+  "version": "0.0.1",
+  "description": "Dinda notifications service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baby-com-br/notifications.git"
+  },
+  "author": "Dinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Baby-com-br/notifications/issues"
+  },
+  "homepage": "https://github.com/Baby-com-br/notifications#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
