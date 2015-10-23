@@ -30,9 +30,9 @@ io.on('connection', function (socket) {
   socket.on("room", function (name) {
     var countRoom = function () {
       var roomName = io.sockets.adapter.rooms[name];
-      
+
       if (roomName) {
-        io.in(name).emit("count", Object.keys(roomName).length);
+        io.in(name).emit("roomCount", Object.keys(roomName).length);
       }
     };
 
